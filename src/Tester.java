@@ -4,7 +4,7 @@
 
 /**
  * @author Jc
- * @version 3 : added the GiantPlanet class
+ * @version 3 : added the TerrestrialPlanet class and cleaned up a bit of code
  * Program description test GiantPlanet and TerrestrialPlanet classes and there assocated methods
  */
 public class Tester {

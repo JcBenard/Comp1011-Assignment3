@@ -13,11 +13,7 @@ public class GiantPlanet extends Planet implements IHasMoons, IHasRings {
 	
 	//properties//////////////////////////////////////////////////////////////////
 	public String getType() {
-		return _type;
-	}
-
-	public void setType(String _type) {
-		this._type = _type;
+		return this._type;
 	}
 
 	//constructor////////////////////////////////////////////////////////////////////

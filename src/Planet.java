@@ -19,31 +19,31 @@ public abstract class Planet {
 	
 	//properties get///////////////////////////////////////////////////////
 	public double getDiameter() {
-		return _diameter;
+		return this._diameter;
 	}
 
 	public double getMass() {
-		return _mass;
+		return this._mass;
 	}
 
 	public int getMoonCount() {
-		return _moonCount;
+		return this._moonCount;
 	}
 	
 	public String getName() {
-		return _name;
+		return this._name;
 	}
 
 	public double getOrbitalPeriod() {
-		return _orbitalPeriod;
+		return this._orbitalPeriod;
 	}
 	
 	public int getRingCount() {
-		return _ringCount;
+		return this._ringCount;
 	}
 	
 	public double getRotationPeriod() {
-		return _rotationPeriod;
+		return this._rotationPeriod;
 	}
 	//properties set////////////////////////////////////////////////////////////////
 	public void setMoonCount(int _moonCount) {
