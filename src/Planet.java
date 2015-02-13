@@ -45,7 +45,7 @@ public abstract class Planet {
 	public double getRotationPeriod() {
 		return _rotationPeriod;
 	}
-	//properties set//////////////////////////////////////////////
+	//properties set////////////////////////////////////////////////////////////////
 	public void setMoonCount(int _moonCount) {
 		this._moonCount = _moonCount;
 	}
@@ -62,7 +62,7 @@ public abstract class Planet {
 		this._rotationPeriod = _rotationPeriod;
 	}
 
-	//constructor///////////////////////////////////////////////////
+	//constructor////////////////////////////////////////////////////////////////////
 	public Planet(String name, double diameter, double mass){
 		
 		this._name = name;
@@ -70,6 +70,7 @@ public abstract class Planet {
 		this._mass = mass;	
 	}
 	
+	//overridden methods////////////////////////////////////////////////////////////
 	@Override
 	public String toString(){
 		return "Planet name: " + this._name + "\nPlanet diameter: " + this._diameter + "\nPlanet mass: " +this._mass;
