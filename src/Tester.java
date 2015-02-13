@@ -4,7 +4,7 @@
 
 /**
  * @author Jc
- * @version 2
+ * @version 3 : added the interfaces
  * Program description test GiantPlanet and TerrestrialPlanet classes and there assoceated methods
  */
 public class Tester {
